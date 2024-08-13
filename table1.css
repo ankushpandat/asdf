@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_div{
+    width: 100%;
+    height: 100%;
+}
+
+.form_div{
+    margin: 0 20px;
+}
+
+.column{
+    display: flex;
+    margin: 25px 0;
+    /* justify-content: space-between; */
+}
+
+.column>label{
+    width: 30%;
+    display: flex;
+    font-size: 20px;
+}
+
+.column>input{
+    width: 340px;
+    margin-right: 80px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 2px;
+}
+
+.btn_div{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.btn_div>button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#second_table{
+    border: 1px solid red;
+}
+
+#second_table>form{
+    display: flex;  
+    justify-content: center;
+    
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.column2>label{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.column2>input{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    /* margin: 20px 20px 10px 0; */
+    height: 20px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.column2>button{
+    margin-top: 33px;
+    width: 177px;
+    height: 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+    font-family: "Anek Devanagari", sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    width: 250px;
+    font-weight: bold;
+    display: inline-block;
+    color: #333;
+    margin-top: 20px;
+}
+
+.main_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.btn>button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

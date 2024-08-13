@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #FEF8EF; */
+}
+.header_field{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 2px dotted black;
+}
+
+.excel_btn  button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    padding: 7px 40px;
+    cursor: pointer;
+}
+
+.main_form_div{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+legend{
+    margin: 0px 6px;
+}
+
+.search_btn{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* margin-left: 2px; */
+    padding: 5px 3px;
+    rotate: 90deg;
+    border-radius: 2px;
+}
+
+
+.header_field label{
+    text-align: right;
+    width: 180px;
+    display: inline-block;
+}
+
+.header_field input{
+    width: 220px;
+    margin: 2px;
+}
+
+
+.form_field{
+    display: flex;
+}
+
+.main_form_div{
+    display: flex;
+}
+
+/* .left_form_secton{
+    width: 30%;
+    border: 1px solid red;
+} */
+
+.unit_field fieldset{
+    padding: 10px;
+}
+
+.unit_field label{
+    width: 140px;
+    display: inline-block;
+}
+
+.unit_field select{
+    width: 173px;
+    outline: none;
+}
+
+.texes_field{
+    padding: 10px;
+}
+
+.item_field{
+    padding: 10px;
+}
+
+.item_field select{
+    width: 190px;
+    outline: none;
+}
+
+.item_field label{
+    text-align: right;
+    width: 130px;
+    display: inline-block;
+    margin: 2.66px 0;
+}
+
+/* .right_form_section{
+    width: 45%;
+} */
+
+.rate_field{
+    padding: 10px;
+}
+
+.rate_field label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+
+.rate_field input{
+    outline: none;
+}
+
+.vendor_field fieldset{
+    padding: 10px;
+}
+
+.vendor_field label{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.vendor_field input{
+    width: 75%;
+    outline: none;
+}
+
+.discount_field fieldset{
+    padding: 10px;
+}
+
+
+.set_item_section{
+    width: 320px;
+    margin : 8px 0 0 10px;
+}
+
+.rate_and_set_field{
+    display: flex;
+}
+
+.moq_field{
+    margin-left: 66px;
+}
+
+.inventory_field{
+    padding: 10px;
+}
+
+table, th, td {
+    border:1px solid black;
+    padding-left: 5px;
+}
+
+.upload_img fieldset{
+    padding: 10px;
+}
+
+.upload_img label{
+    display: block;
+    
+}
+
+#preview {
+    margin-top: 10px;
+    width: 250px;
+    height:200px;
+ }
+
+
+ .company_field{
+    margin-top: 10px;
+    text-align: center;
+ }
+
+ .company_field select{
+    width: 35%;
+    height: 30px;
+    outline: none;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form4.css">
+  <title>Form 4</title>
+</head>
+
+<body>
+  <h1>Sales Order Form</h1>
+  <form action="">
+    <div class="top_form_section">
+      <div class="personal_info">
+        <fieldset>
+          <legend>User Information</legend>
+          <label>Serial No</label>
+          <input type="number">
+          <label>User Name</label>
+          <input type="text">
+          <label>User Address</label>
+          <input type="text">
+          <label>User Phone Number</label>
+          <input type="number">
+          <label>User Email</label>
+          <input type="email">
+        </fieldset>
+      </div>
+      <div>
+        <div class="item_info">
+          <fieldset>
+            <legend>Item Information</legend>
+            <div class="inner_item_info">
+              <label>Item Required</label>
+              <input type="text">
+              <button class="add-button" id="addInput" onclick="addFn()">Add Input Field</button>
+               <div id="inputFields"></div>
+              <div class="image">
+              <img  src="image.jpg" alt="image preview">
+            </div>
+              <label>Item Shape</label>
+              <input type="text">
+            </div>
+            <div class="inner_item_info">
+              <label>Item Type</label>
+              <input type="text">
+              <label>Item Size</label>
+              <input type="number">
+            </div>
+            <div class="inner_item_info">
+              <label>Item Height</label>
+              <input type="number">
+              <label>Item Finish</label>
+              <input type="text">
+            </div>
+          </fieldset>
+        </div>
+        <div class="project_info">
+          <fieldset>
+            <legend>Project Information</legend>
+            <div>
+              <label>Project status</label>
+              <input type="text">
+              <label>Packed start date</label>
+              <input type="date">
+            </div>
+            <div>
+              <label>Packed completion date</label>
+              <input type="date">
+              <label>Remarks</label>
+              <input type="text">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div class="buttom_form_section">
+      <div class="install_info">
+        <fieldset>
+          <legend>Install Information</legend>
+          <div class="inner_install_info">
+            <label>Installation is required</label>
+            <input type="text">
+            <label>Installation Need By date</label>
+            <input type="date">
+            <label>Tentative Installation </label>
+            <input type="text">
+          </div>
+          <div class="inner_install_info">
+            <label>Installation date</label>
+            <input type="date">
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <div class="followup_info">
+          <fieldset>
+            <legend>Followup Information</legend>
+            <div class="inner_followup_info">
+              <label>Followup</label>
+              <input type="text">
+              <label>Shop drawing Start date</label>
+              <input type="date">
+            </div>
+            <div class="inner_followup_info">
+              <label>Shop drawing approved</label>
+              <input type="text">
+              <label>Quotation shared date</label>
+              <input type="text">
+            </div>
+            <div class="inner_followup_info">
+              <label>Sample approval start date</label>
+              <input type="date">
+              <label>Sample approval date</label>
+              <input type="date">
+            </div>
+          </fieldset>
+        </div>
+        <div class="query_info">
+          <fieldset>
+            <legend>Query Information</legend>
+            <div class="inner_query_info">
+              <label>Query Received</label>
+              <input type="text">
+              <label>Query Start date</label>
+              <input type="date">
+            </div>
+            <div class="inner_query_info">
+              <label>Query updated date</label>
+              <input type="date">
+              <label>Query created by</label>
+              <input type="text">
+            </div>
+            <div class="inner_query_info">
+              <label>Query updated by</label>
+              <input type="text">
+              <label>Re-query</label>
+              <input type="text">
+            </div>
+            <div class="inner_query_info">
+            <label>Re-query closure date</label>
+            <input type="text">
+            <label>Query end date</label>
+            <input type="date">
+          </div>
+          </fieldset>
+        </div>
+      </div>
+
+    </div>
+  </form>
+
+  <script>
+    function addFn() {
+        const divEle = document.getElementById("inputFields");
+        const wrapper = document.createElement("div");
+        const iFeild = document.createElement("input");
+        iFeild.setAttribute("type", "text");
+        iFeild.setAttribute("placeholder", "Enter value");
+        iFeild.classList.add("input-field");
+        wrapper.appendChild(iFeild);
+        divEle.appendChild(wrapper);
+        console.log("printed")
+        // alert("Jay Hind")
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formFinal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="company_field">
+            <label>Company</label>
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+        </div>
+
+        <div class="header_field">
+            <div>
+                <label> Sku : </label>
+                <input type="text" required>
+                <button class="search_btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div>
+                <label>Name : </label>
+                <input type="text">
+                <button class="search_btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button><br>
+
+                <label>Party Product Name:</label>
+                <input type="text">
+            </div>
+            <div class="excel_btn">
+                <button>Excel File</button>
+            </div>
+        </div>
+
+        <!-- Unit Form -->
+        <div class="first_form">
+            <div class="unit_field">
+                <fieldset>
+                    <legend>Unit</legend>
+                    <label>Purchase Unit : </label>
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select><br>
+                    <label>Sales Unit : </label>
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select><br>
+                    <label>Pack :</label>
+                    <input type="text"><span>Qty</span>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset class="item_field">
+                    <legend>Item Attribute</legend>
+                    <div class="inner_item_field">
+                        <label>Category : </label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select><br>
+                        <label>Sub Category : </label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select><br>
+                        <label>Colour/cut :</label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select><br>
+                    </div>
+
+                    <div class="inner_item_field">
+                        <label>Length : </label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select><br>
+                        <label>Weight : </label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select><br>
+                        <label>Watt/extention : </label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select><br>
+                    </div>
+                    <div class="inner_item_field">
+                        <label>Location : </label>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+
+        </div>
+        <div>
+
+            <div class="second_form">
+                <div class="set_item_section">
+                    <div class="set_item">
+                        <input type="checkbox"><span>Set Item</span><br>
+                        <label> Item Type : </label>
+                        <select name="" id="" >
+                            <option value="">Finished</option>
+                        </select>
+                    </div>
+                    <div class="discount_field">
+                        <fieldset>
+                            <legend>Discount</legend>
+                            <input type="checkbox"><span>Discountable</span><br>
+                            <label>Discount : </label>
+                            <input type="text">
+                            <select name="" id="">
+                                <option value="">%</option>
+                            </select>
+
+                        </fieldset>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label>Make to Order</label>
+                    </div>
+
+                    <div class="moq_field">
+                        <label>MOQ :</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="rate_and_set_field">
+                        <fieldset class="rate_field">
+                            <legend>Rate</legend>
+                            <div class="inner_rate_field">
+                                <label>Purchase : </label>
+                                <input type="text"><br>
+                                <label>Margin (%) : </label>
+                                <input type="text"><br>
+                                <label>M.R.P. : </label>
+                                <input type="text"><br>
+                            </div>
+                            <div class="inner_rate_field">
+                                <label>Retail : </label>
+                                <input type="text"><br>
+                                <label>Whole Sale : </label>
+                                <input type="text"><br>
+                                <label>Corporate : </label>
+                                <input type="text"><br>
+                            </div>
+                            <div class="inner_rate_field">
+                                <label>Special : </label>
+                                <input type="text">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="vendor_field">
+                        <fieldset>
+                            <legend>Vendor</legend>
+                            <label>Name : </label>
+                            <input type="text"><br>
+                            <label>Bar Code : </label>
+                            <input type="text">
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="third_field">
+                <fieldset class="texes_field">
+                    <legend>Taxes (GST)</legend>
+                    <label>HSN CODE </label>
+                    <input type="text" placeholder="9403 - 18">
+                    <button class="search_btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </fieldset>
+
+                <div>
+                    <fieldset class="inventory_field">
+                        <legend>Inventory Level</legend>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Branch Name</th>
+                                <th>Min.</th>
+                                <th>Max.</th>
+                                <th>Re-order</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>GHITORNI</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+                <div class="upload_img">
+                    <fieldset>
+                        <legend>Picture</legend>
+                        <input type="file" accept="image/*" onchange="previewImage(event)"><br>
+
+                    </fieldset>
+                </div>
+                <div class="preview">
+                    <fieldset>
+                        <legend>Preview Image</legend>
+                    <img id="preview" alt="Preview Image">
+                </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

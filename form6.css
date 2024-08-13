@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+     /* font-family: "Poppins", sans-serif; */
+    font-family: "Anek Devanagari", sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+h2 {
+    width: 300px;
+    margin: auto;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+label{
+    text-align: right;
+    width: 200px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+input{
+    margin: 10px 0;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 0 5px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn>button{
+    background-color: aqua;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
